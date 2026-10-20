@@ -2,7 +2,7 @@
 
 These original packages and their published versions remain available for existing projects. For new projects, start with [SuperJupiter Sensor Toolkit](https://github.com/Super-Jupiter/superjupiter-sensor-toolkit) or [SuperJupiter Embedded Reliability](https://github.com/Super-Jupiter/superjupiter-embedded-reliability).
 
-Migration is optional. Follow the consolidated library's migration guide and use one implementation of each component per application. No old repository or release has been deleted or archived as part of consolidation.
+Migration is optional. Follow the consolidated library's migration guide and use one implementation of each component per application. The twenty standalone repositories are archived and read-only. Their public URLs, source history, tags, releases and existing registry packages are retained. For new work and issue reports, use the relevant consolidated library linked above.
 
 **Hardware validation pending.** Software tests and board compilation are distinct from physical testing.
 
