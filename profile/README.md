@@ -19,11 +19,21 @@ Reusable MIT-licensed C++11 components for Arduino, ESP32 and host applications.
 
 > **Hardware validation pending.** These are preview releases. Software tests and board compilation are separate from physical testing and do not establish sensor accuracy, storage durability or safety certification. Read each library's validation record and limitations.
 
+### Install the preview libraries
+
+| Library | Arduino Library Manager search | PlatformIO |
+| --- | --- | --- |
+| Sensor Toolkit | `SuperJupiterSensorToolkit` by SuperJupiter | [Registry](https://registry.platformio.org/libraries/superjupiter/SuperJupiterSensorToolkit) |
+| Embedded Reliability | `SuperJupiterEmbeddedReliability` by SuperJupiter | [Registry](https://registry.platformio.org/libraries/superjupiter/SuperJupiterEmbeddedReliability) |
+
+Both libraries are available at version `0.1.0`. The repository READMEs include Arduino CLI commands and versioned ZIPs for offline installation.
+
 ### Start building
 
 - [Check sensor readings](https://github.com/Super-Jupiter/superjupiter-sensor-toolkit/tree/main/examples/CheckReadings), keeping raw values and quality flags visible.
 - [Explore recoverable record protocols](https://github.com/Super-Jupiter/superjupiter-embedded-reliability/tree/main/examples/RecoverableRecords) using explicitly labelled RAM storage.
 - [Try the combined measurement pipeline](https://github.com/Super-Jupiter/superjupiter-sensor-toolkit/tree/main/extras/MeasurementPipeline) with both libraries. It exercises twenty components using synthetic data and RAM storage.
+- [Inspect a synthetic network outage in Sensor Data Workbench](https://www.superjupiter.net/tools/sensor-data-workbench#outage-sample-pack). Download the CSVs and compare the arrival log with the recovered history in your browser.
 
 ### Existing projects
 
